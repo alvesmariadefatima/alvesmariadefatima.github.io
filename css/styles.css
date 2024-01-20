@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Kanit:ital,wght@1,300&family=Playfair+Display&display=swap');
+
+body {
+    background-color: lightcoral;
+    margin: 0; /* Remova a margem padrão do corpo */
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0; /* Remova a margem padrão do título */
+}
+
+h2 {
+    font-family: 'Kanit', sans-serif;
+    color: brown;
+    background-color: pink;
+    text-align: center;
+    margin: 0; /* Remova a margem padrão do subtítulo */
+}
+
+.bloco-perfil {
+    padding: 20px;
+    text-align: center;
+}
+
+.img-perfil {
+    width: 20vw;
+    max-width: 200px; /* Defina uma largura máxima para a imagem */
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+main {
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: white;
+    width: 80%; /* Ajuste a largura conforme necessário */
+    margin: auto;
+    padding: 20px;
+}
+
+.nav-link {
+    color: brown;
+}
+
+.nav-link:hover {
+    color: hotpink;
+}
+
+.subtitulo-perfil {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.habilidades-icon,
+.experiencias-icon {
+    margin-bottom: 20px; /* Ajuste o valor conforme necessário para evitar sobreposição */
+}
+
+.txt-experiencias {
+    font-family: 'Kanit', sans-serif;
+    color: black;
+}
+
+.secao-experiencias,
+.secao-contatos,
+.secao-habilidades {
+    text-align: center;
+    padding: 10px;
+}
+
+.img-wlc-solucoes,
+.img-seduc {
+    border-radius: 50%;
+    max-width: 100%; /* Garante que as imagens não ultrapassem a largura do contêiner */
+    height: auto;
+}
+
+.bi-github, .bi-linkedin, .bi-instagram, .bi-whatsapp {
+    width: 60px;
+    height: auto;
+}
+
+footer {
+    font-family: 'Kanit', sans-serif;
+    color: brown;
+    text-align: center;
+    background-color: pink;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    color: black;
+    text-align: left;
+    padding: 20px;
+    margin: 0; /* Remova a margem padrão dos parágrafos */
+}
