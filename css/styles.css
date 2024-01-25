@@ -34,6 +34,11 @@ h2 {
     border: 5px solid white;
 }
 
+.img-freelancer {
+    width: 30%;
+    height: auto;
+}
+
 main {
     margin-top: 20px;
     border-radius: 30px;
@@ -74,7 +79,6 @@ main {
     padding: 10px;
 }
 
-.img-wlc-solucoes,
 .img-seduc {
     border-radius: 50%;
     max-width: 100%; /* Garante que as imagens não ultrapassem a largura do contêiner */
