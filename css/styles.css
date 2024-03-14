@@ -91,6 +91,13 @@ main {
     height: auto;
 }
 
+.logotipo-apala {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    max-width: 200px; /* Defina um tamanho máximo para a largura da imagem */
+}
+
 .bi-github, .bi-linkedin, .bi-instagram, .bi-whatsapp {
     width: 60px;
     height: auto;
